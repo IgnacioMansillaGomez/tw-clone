@@ -1,7 +1,7 @@
-import Sidebar from './Layout/Sidebar'
+import Sidebar from "./Layout/Sidebar";
 
 interface LayoutProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -16,5 +16,5 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
